@@ -1,0 +1,5 @@
+ applications:
+  - name: IBM-Wokrshop
+    memory: 128M
+    host: compassionate-colden
+    buildpack: staticfile_buildpack
