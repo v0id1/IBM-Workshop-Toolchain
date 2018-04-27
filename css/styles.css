@@ -2,3 +2,19 @@ body {
     background-color: #535356;
     color: #d2d2d2;
 }
+
+.animated {
+    animation: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes pulse {
+    0% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
+}
